@@ -1,8 +1,9 @@
-export default function signup() {
+import React from 'react'
+export default function SignUp() {
     return (
         <>
             <div className='mt-5 p-4'>
-                <h2 className='mx-auto text-bold' style={{ width: "15px" }}>Login</h2>
+                <h2 className='mx-auto text-bold' style={{ width: "15px" }}>Sign Up</h2>
             </div>
             <div className='container mt-5 w-50 border border-warning p-5' >
                 <form>
